@@ -1,0 +1,9 @@
+<ul class="list-group">
+<% @restaurants.each do |restaurant|%>
+ <li class="list-group-item">
+    <p><strong> <%= restaurant.name %></strong></p>
+    <p> <%= restaurant.address %></p>
+    <p><%= restaurant.category %></p>
+ </li>
+<% end %>
+</ul>
